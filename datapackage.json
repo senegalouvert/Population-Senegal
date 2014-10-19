@@ -21,31 +21,22 @@
         "fields": [
           {
             "name": "Années",
-            "type": "integer"
+            "type": "date",
+            "format": "yyyy"
           },
           {
             "name": "Population totale",
-            "type": "integer"
+            "type": "number"
           },
           {
             "name": "Hommes",
-            "type": "integer"
+            "type": "number"
           },
           {
             "name": "Femmes",
-            "type": "integer"
+            "type": "number"
           }
         ]
-      }
-    }
-  ],
-  "views": [
-    {
-      "id": "graph",
-      "type": "Graph",
-      "state": {
-        "group": "Années",
-        "series": [ "Population totale" ]
       }
     }
   ]
