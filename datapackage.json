@@ -7,16 +7,13 @@
   }],
   "licenses": [
     {
-      "id": "Domaine Public",
+      "type": "Domaine Public",
       "url": "http://creativecommons.org/licenses/publicdomain/deed.fr"
     }
   ],
   "resources": [
     {
-      "name": "Repartition_population_selon_sexe_1970_2005.csv",
-      "path": "Repartition_population_selon_sexe_1970_2005.csv",
-      "mediatype": "text/csv",
-      "bytes": 1087,
+      "url": "https://raw.githubusercontent.com/senegalouvert/Population-Senegal/master/Repartition_population_selon_sexe_1970_2005.csv",
       "schema": {
         "fields": [
           {
