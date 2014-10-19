@@ -1,0 +1,32 @@
+{
+  "title": "Répartition de la population selon le sexe de 1970 à 2005",
+  "name": "rpartition-de-la-population-selon-le-sexe-de-1970--2005",
+  "resources": [
+    {
+      "name": "Repartition_population_selon_sexe_1970_2005.csv",
+      "path": "Repartition_population_selon_sexe_1970_2005.csv",
+      "mediatype": "text/csv",
+      "bytes": 1087,
+      "schema": {
+        "fields": [
+          {
+            "name": "AnnÃ©es",
+            "type": "integer"
+          },
+          {
+            "name": "Population totale",
+            "type": "integer"
+          },
+          {
+            "name": "Hommes",
+            "type": "integer"
+          },
+          {
+            "name": "Femmes",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
