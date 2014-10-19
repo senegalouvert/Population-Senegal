@@ -1,6 +1,16 @@
 {
   "title": "Répartition de la population selon le sexe de 1970 à 2005",
   "name": "rpartition-de-la-population-selon-le-sexe-de-1970--2005",
+  "sources": [{
+    "name": "ANSD",
+    "web": "http://www.ansd.sn/publications/annuelles/population-du-Senegal/population_Senegal_1970_2005.pdf"
+  }],
+  "licenses": [
+    {
+      "id": "Domaine Public",
+      "url": "http://creativecommons.org/licenses/publicdomain/deed.fr"
+    }
+  ],
   "resources": [
     {
       "name": "Repartition_population_selon_sexe_1970_2005.csv",
@@ -10,7 +20,7 @@
       "schema": {
         "fields": [
           {
-            "name": "AnnÃ©es",
+            "name": "Années",
             "type": "integer"
           },
           {
@@ -26,6 +36,16 @@
             "type": "integer"
           }
         ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "graph",
+      "type": "Graph",
+      "state": {
+        "group": "Années",
+        "series": [ "Population totale" ]
       }
     }
   ]
