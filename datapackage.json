@@ -1,13 +1,14 @@
 {
-  "title": "Répartition de la population selon le sexe de 1970 à 2005",
-  "name": "rpartition-de-la-population-selon-le-sexe-de-1970--2005",
+  "title": "Répartition de la population selon le sexe",
+  "name": "Population-Senegal",
   "sources": [{
     "name": "ANSD",
     "web": "http://www.ansd.sn/publications/annuelles/population-du-Senegal/population_Senegal_1970_2005.pdf"
   }],
   "licenses": [
     {
-      "type": "Domaine Public",
+      "id": "odc-pddl",
+      "name": "Domaine Public",
       "url": "http://creativecommons.org/licenses/publicdomain/deed.fr"
     }
   ],
