@@ -13,7 +13,8 @@
   ],
   "resources": [
     {
-      "url": "https://raw.githubusercontent.com/senegalouvert/Population-Senegal/master/Repartition_population_selon_sexe_1970_2005.csv",
+      "path": "data/Repartition_population_selon_sexe_1970_2005.csv",
+      "format": "csv",
       "schema": {
         "fields": [
           {
@@ -34,6 +35,16 @@
             "type": "number"
           }
         ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "graph",
+      "type": "Graph",
+      "state": {
+        "group": "Années",
+        "series": [ "Population totale" ]
       }
     }
   ]
