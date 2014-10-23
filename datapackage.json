@@ -13,6 +13,8 @@
   ],
   "resources": [
     {
+      "name": "Population Senegal",
+      "url": "https://github.com/senegalouvert/Population-Senegal/raw/master/data/Repartition_population_selon_sexe_1970_2005.csv",
       "path": "data/Repartition_population_selon_sexe_1970_2005.csv",
       "format": "csv",
       "schema": {
